@@ -27,12 +27,17 @@ Assuming you already setup your Nuxt app.
       - [articles.gql](https://gist.github.com/silvandiepen/9a7508fedb97242ccbbfdf014616703f#file-articles-gql)
 - config
    - [index.js](https://gist.github.com/silvandiepen/9a7508fedb97242ccbbfdf014616703f#file-config-js)
-      
+- [.env](https://gist.github.com/silvandiepen/9a7508fedb97242ccbbfdf014616703f#file-env)
 
+(all files in a gist [here](https://gist.github.com/silvandiepen/9a7508fedb97242ccbbfdf014616703f)) 
       
+<script src="https://gist.github.com/silvandiepen/9a7508fedb97242ccbbfdf014616703f.js"></script>
+
 
 
 ## Step 3. The store
+
+
 
 ## Step 4. Filling the store
 
