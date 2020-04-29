@@ -1,3 +1,5 @@
+# Self or This?
+
 At my office, this has been an ongoing conflict between developers. Should we use `self` of `_this` in JavaScript? There are things to say for both, but I prefer `_this` because of the following reasons.
 
 - window.self in Javascript already exists, it does not in the frameworks we use, and therefore we could repurpose it for the gain of using `this`. But why should you repurpose something if you can get something new?
