@@ -16,15 +16,19 @@ Here is a short version step by step what to create;
 ## Step 2. Setup your app with Nuxt and install Graphql
 
 Assuming you already setup your Nuxt app. 
-- install Apollo; `npm install @nuxtjs/apollo --save`.
-- Create a folder in your root with the following files; 
+1. install Apollo; `npm install @nuxtjs/apollo --save`.
+2. Create a folder in your root with the following files; 
 
-  > graphql
-    > Apollo
-      - ApolloLogger.js
-      - defaultClient.js
-    > query
-      - articles.gql
+- graphql
+   - Apollo
+     - [ApolloLogger.js](https://gist.github.com/silvandiepen/9a7508fedb97242ccbbfdf014616703f#file-apollologger-js)
+     - [defaultClient.js](https://gist.github.com/silvandiepen/9a7508fedb97242ccbbfdf014616703f#file-defaultclient-js)
+   - query
+      - [articles.gql](https://gist.github.com/silvandiepen/9a7508fedb97242ccbbfdf014616703f#file-articles-gql)
+- config
+   - [index.js](https://gist.github.com/silvandiepen/9a7508fedb97242ccbbfdf014616703f#file-config-js)
+      
+
       
 
 
