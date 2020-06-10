@@ -18,11 +18,11 @@ Eventually I started precompiling my stylesheets, which did make the websites I 
 
 But then along came Sass, I first didn’t like it at all, that had mainly to do with the syntax. The nice thing of LESS was that its practically css, with some syntactic sugar. The default way of writing Sass was the syntax without all the braces which took a bit to get used too.
 
-‘’’
+```sass
 .class
    border: 1px solid red
    width: 100%
-‘’’ 
+```
 
 Scss was made for people like me, who weren’t a fan of the proposed simple syntax of Sass. And Scss was truely css with syntactic sugar. Valid css is also valid Scss! I more and more loved the language and started to create bigger and crazier things.
 
