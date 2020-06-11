@@ -14,7 +14,7 @@ Then I discovered Less, a “preprocessor” which gave me something I was tryin
 Eventually I started precompiling my stylesheets, which did make the websites I made a lot faster. It took a little step, but how many times do you upload a new website to production anyway? Well, continuously, because developing we did on the ftp server directly in production anyway. Sometimes you make a copy, just in case something goes wrong.
 
 
-# Sass 
+### Sass 
 
 But then along came Sass, I first didn’t like it at all, that had mainly to do with the syntax. The nice thing of LESS was that its practically css, with some syntactic sugar. The default way of writing Sass was the syntax without all the braces which took a bit to get used too.
 
@@ -40,12 +40,12 @@ This project grew and grew and with help of others this eventually became “Hen
 
 Now, Henri’s is being used by a few people. It’s open to anyone but writing good documentation and marketing a package has never really come from the ground. Currently I am working on a fully new version of the stack. Based on Henri’s, reusing lots of the logic but in a new format and as a more professional setup.
 
-# Guyn
+### Guyn
 
 Guyn started as a little package just containing a set of colors. Working on many little projects, made me have to pick a new color palette every time, even though they are just my projects. They could share a set of colors. Guyn was born, a limited but versatile set of colors. 
 
 Guyn also adopted the new styling package, called Guyn Style. Which is my newer version replacing Henri’s. Making Guyn more and more a set of frontend developer tools. 
 
-# Design Systems
+### Design Systems
 
 At the moment I’m working on my skills with Design Systems. Especially using Sass for styling and trying to keep the styling as good, sturdy, testable and multifunctional as possible. Styled Components or other CSS-in-JS technologies are the hot thing now, but personally not a fan. More about that in another post later. 
