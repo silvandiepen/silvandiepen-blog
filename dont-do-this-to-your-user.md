@@ -1,5 +1,7 @@
 # Don’t do this to your user
 
+Every website is different, which is a good thing. But there are certain best practices which arent obligated, but it would be good if you would at least consider them. There are a few things which I think are really annoying while browsing the website. Here is a little list.. 
+
 ## 1. Hijack scrolling
 
 I expect my devices to do certain things, like the way my phone scrolls is made very intuitive. Hijacking this makes it feel like my phone is broken or if there is something wrong. Don’t get me wrong, I don’t mean animations on scroll or things happening, hiding and appearing on scroll(directions), they can be very helpful. No, actually hijacking the scroll functionality. You might like it as a developer, but for the biggest part of the users it just feels weird and unintuitive which gives a bad feeling to a website. It makes the website feel sluggish or weird, those aren’t things you want the user to feel about your website. Unless you do, than just do it, but don’t complain. 
