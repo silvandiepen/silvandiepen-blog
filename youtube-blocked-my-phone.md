@@ -1,6 +1,7 @@
 # YouTube blocked my phone..
 
 Although, not completely, it blocked my phone from doing anything, not in the regular way like putting in your password too many times. 
+
 ![Youtube blocked](https://i.ibb.co/LxLBqJL/blocked.png)
 
 I have no idea what happened, but when opening YouTube it got stuck on the intro/loading screen. I tried to close the app, but that gesture didn't work at all. I could get in to the lock screen, but getting into the screen to turn off my phone was impossible. So all I could do essentially was; make a picture, unlock my phone with faceID, turn on/off the light and.. Siri!
