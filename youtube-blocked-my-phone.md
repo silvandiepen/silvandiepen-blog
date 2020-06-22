@@ -1,7 +1,7 @@
 # YouTube blocked my phone..
 
 Although, not completely, it blocked my phone from doing anything, not in the regular way like putting in your password too many times. 
-[blocked](https://pasteboard.co/JegkYGn.png)
+![Youtube blocked](https://pasteboard.co/JegkYGn.png)
 
 I have no idea what happened, but when opening YouTube it got stuck on the intro/loading screen. I tried to close the app, but that gesture didn't work at all. I could get in to the lock screen, but getting into the screen to turn off my phone was impossible. So all I could do essentially was; make a picture, unlock my phone with faceID, turn on/off the light and.. Siri!
 
@@ -15,6 +15,6 @@ It took me a while and I was about to just wait it out till my battery would hav
 
 But then I thought of it, I have Siri and I can enable/disable things on my phone using Siri. I enabled "Assistive touch" by telling Siri "Enable Assistive Touch", Siri was my friend an happily enabled it. Now I got that home button in my screen which I could use. By clicking it longer, I actually got some more option. From `Device > More > Restart` I could finally restart my phone. And it did! My phone worked again.. 
 
-[siri](https://pasteboard.co/JegkvJ9.png)
+![Siri assistive touch](https://pasteboard.co/JegkvJ9.png)
 
-[jeej](https://pasteboard.co/Jeglczs.png)
+![Steps with assistive touch](https://pasteboard.co/Jeglczs.png)
