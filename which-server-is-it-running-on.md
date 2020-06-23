@@ -1,5 +1,6 @@
 ---
 date: 2019-01-05
+tags: help, server, terminal
 ---
 
 # Which server is it running on?
