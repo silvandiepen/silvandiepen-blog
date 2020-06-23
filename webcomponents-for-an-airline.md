@@ -1,5 +1,6 @@
 ---
 date: 2020-02-02
+tags: designsystem, component, react, story
 ---
 
 # Building a Design System for an airline
