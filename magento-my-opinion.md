@@ -1,5 +1,6 @@
 ---
 date: 2019-02-10
+tags: opinion, magento, negative
 ---
 
 # Magento, my opinion...
