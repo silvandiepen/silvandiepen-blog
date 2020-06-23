@@ -1,5 +1,6 @@
 ---
 date: 2020-06-07
+tags: tutorial, help, samsung, tv, restart
 ---
 
 # The restarting Samsung TV
