@@ -1,3 +1,7 @@
+---
+tags: tips, list, scrolling, users, dont
+---
+
 # Don’t do this to your user
 
 Every website is different, which is a good thing. But there are certain best practices which arent obligated, but it would be good if you would at least consider them. There are a few things which I think are really annoying while browsing the website. Here is a little list.. 
