@@ -1,5 +1,6 @@
 ---
 date: 2019-03-22
+tags: angularjs, vue, nuxt
 ---
 
 # Going from Angular(JS) to Vue(Nuxt)
