@@ -1,5 +1,6 @@
 ---
 date: 2019-04-01
+tags: opinion, self, this
 ---
 
 # Self or This?
