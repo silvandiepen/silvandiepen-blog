@@ -1,3 +1,7 @@
+---
+tags: help, phone, block, iphone
+---
+
 # YouTube blocked my phone..
 
 Although, not completely, it blocked my phone from doing anything, not in the regular way like putting in your password too many times. 
