@@ -1,5 +1,6 @@
 ---
 date: 2020-06-07
+tags: design system, ideal, developer, designer
 ---
 
 # Design Systems in an ideal world
