@@ -1,5 +1,6 @@
 ---
 date: 2020-04-29
+tags: blog, nuxt, graphql, githubapi
 ---
 
 # Creating a blog with Nuxt and the Github Graphql Api
