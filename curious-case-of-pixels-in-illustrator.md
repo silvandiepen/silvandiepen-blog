@@ -1,5 +1,6 @@
 ---
 date: 2019-01-01
+tags: adobe, illustrator, pixel
 ---
 
 # Curious the case of pixels in Illustrator.
