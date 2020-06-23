@@ -1,5 +1,6 @@
 ---
 date: 2019-03-25
+tags: tips, help, localhost, virtualbox, window, valet
 ---
 
 # Running localhost in your Virtualbox windows
