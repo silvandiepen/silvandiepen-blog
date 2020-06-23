@@ -1,3 +1,7 @@
+---
+tags: styling, css, less, sass
+---
+
 # Styling the web, my story
 
 Many years ago, I found Css. I was styling my html just with inline styles and thought that was it. My first impressions were “interesting”, but I was wondering why I would separate my markup from my styling. “That’s not handy at all, you need to have two files open at the same time”. That obviously change quite fast and I started to love css. 
