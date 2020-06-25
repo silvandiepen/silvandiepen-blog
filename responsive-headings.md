@@ -1,6 +1,7 @@
 # Responsive headings
 
 Responsive text in web development is quite a thing right now and there are many ways to approach this with good and perfect results. We have been doing this for about 1,5 year now and I will share the way we do this. I’m not saying that any other way is bad or that this way is better, but this works pretty well for us.
+
 Let’s start with why; Why do we want responsive text in our websites? Well, before, a few years ago we’ve been developing websites for a certain resolution. A screen popping up saying “This website is optimised for a resolution of 1024x768” was a common thing. Ok, maybe a little more then a few years. Nowadays we develop websites for every resolution, a website should look good on a small smartphone (320px) till a large 4k screen (3840px). In most cases a 4k screen won’t be used as full pixels, but a website, if done well, should still be readable and look good on a large resolution like that.
 
 > Set font size based on design width with a min and max size.
