@@ -5,7 +5,7 @@ These methods can be used in other Vue projects just as simple, besides the plug
 
 (2020 update: Go to point 5 if you are using Nuxt).
 
-### 1. The Classic Way
+## 1. The Classic Way
 
 **In your vue component:***
 
@@ -17,19 +17,19 @@ export default{
     }
 }
 ```
-#### Pros
+##### Pros
 
 The component loads directly and will be directly visible. Also, the renderer will always render the component.
 
-#### Cons
+##### Cons
 
 All components will be loaded directly, sometimes this means that components will be loaded and rendered while they are used (yet). This adds up to build and load time.
 
-#### Usage
+##### Usage
 
 Components which are you main components, like navigation or things you for sure want to see on first load.
 
-### 2. The Async Way
+## 2. The Async Way
 
 **In your vue component:**
 
@@ -42,20 +42,20 @@ export default{
 }
 ```
 
-#### Pros
+##### Pros
 
 The component loads asynchronous, which means that the component won't be taken part in the load time and will only be loaded when actually necessary.
 
-#### Cons
+##### Cons
 
 Not much, but it means that the component could be loaded a little later than load time, especially with heavy components. Using this method on components which should be loaded directly could make them to pop in. Which is something you don't want.
 
-#### Usage
+##### Usage
 
 When you have components which are below the fold, components which don't have to be loaded directly to be able to use the website. Load these components asynchronous ("lazy") and the apps load time will get a lot shorter. When lazyloading the components, the website can jump, so avoid using this method for components which should be present directly.
 
 
-### 3. The Plugin Way
+## 3. The Plugin Way
 
 **In your vue component:**
 
@@ -85,19 +85,19 @@ Object.keys(Components).forEach((key) =&gt; {
 plugins: [{  src: "~/plugins/components.js", ssr: true }]
 ```
 
-#### Pros
+##### Pros
 
 The component will be loaded everywhere without having to declare it in the components. This means you can easily use it anywhere.
 
-#### Cons
+##### Cons
 
 The component will be loaded everywhere, which means that all pages will be loading this component even when they don't use it. This increases the load time a lot.
 
-#### Usage
+##### Usage
 
 When there are components which for sure will be used almost all through your app or website, like components for layout, grid, or buttons. These components you don't want to include everywhere and just be able to use everywhere. But be careful! <em>Try to avoid this method as much as possible.</em>
 
-### 4. The Direct Way
+## 4. The Direct Way
 
 **In your vue component:**
 
@@ -109,20 +109,20 @@ export default{
 }
 ```
 
-#### Pros
+##### Pros
 
 Easy syntax and easier to comment out. In a way it's the same as the "async" way but written shorter.
 
-#### Cons
+##### Cons
 
 Not much, but it means that the component could be loaded a little later than load time, especially with heavy components. Using this method on components which should be loaded directly could make them to pop in. Which is something you don't want.
 
-#### Usage
+##### Usage
 
 While debugging components, and you want to just turn off 1 component easily, this makes it for sure easier to comment out a component directly. Just the syntax alone,  make it shorter to read and clearer.
 
 
-### 5. The Index Way
+## 5. The Index Way
 
 Especially when you have a very filled components folder, it can start to be a hassle. Tidying up in the form of folder structures is a good way to create a little bit transparency in the mess. But that also comes with a cost. In which folder lives my component again?
 This I usually solve by creating a index file for my components. In that way, I can just import any component from the same folder.
@@ -147,22 +147,22 @@ In this way you can use all components in the following way;
 import { componentName, someOther } from '~/components';
 ```
 
-#### Pros
+##### Pros
 
 - It structurizes your components and makes it easier to import components. 
 - You can import all components within one line instead of several. 
 
-#### Cons
+##### Cons
 
 - Importing a component in a component both in the components folder, can be a hassle. In that case you should still import them with the relative path.
 - You have to add all components to index.js files
 
-### 5. The New Nuxt Way
+## 5. The New Nuxt Way
 
 Since `Nuxt 2.13` you don't have to do imports anymore, Nuxt will resolve all components for you. So, you don't have to use any of the techniques above, but you can still use them in other Vue projects ofcourse.
 
 
-### Conclusion**
+### Conclusion
 
 Every way has its pros and cons, some are better for performance, some for usability. In the end, it's best to judge every import by what way would be best to use.
 
