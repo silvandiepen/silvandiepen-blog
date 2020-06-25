@@ -34,7 +34,7 @@ but mostly they aren’t even doing anything besides going from 1 to the next va
 
 ### 3. Use a curve
 
-A little cubic-bezier or curve can make your animation so much better. For instance simple ones; use a `ease-in` for incoming animations and a ease-out for outgoing animations. Also, you can go all over the top playing with cubic-bezier curves. A good tool to play and test with this is: (cubic-bezier.com)[https://cubic-bezier.com/#0,2,1,1.5], the link given here has a cubic bezier of `0,2,1,1.5`. Which is going all the way over the top and back, it looks cool... can be nice, but some browsers won’t do anything beyond 1 and under 0. So try to keep your beziers between 0 and 1.
+A little cubic-bezier or curve can make your animation so much better. For instance simple ones; use a `ease-in` for incoming animations and a ease-out for outgoing animations. Also, you can go all over the top playing with cubic-bezier curves. A good tool to play and test with this is: [cubic-bezier.com](https://cubic-bezier.com/#0,2,1,1.5), the link given here has a cubic bezier of `0,2,1,1.5`. Which is going all the way over the top and back, it looks cool... can be nice, but some browsers won’t do anything beyond 1 and under 0. So try to keep your beziers between 0 and 1.
 
 ### 4. Let the browser know.
 
