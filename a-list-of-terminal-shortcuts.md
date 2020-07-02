@@ -35,7 +35,7 @@ slack(){
 
 ### NPM helpers
 
-** Publish **
+**Publish**
 Publishing, because I always forget the public part.. 
 
 ```bash
@@ -52,7 +52,7 @@ npm:publish(){
 }
 ```
 
-** Login ** 
+**Login** 
 for when you have multiple accounts
 
 ```bash
@@ -77,7 +77,7 @@ npm:login(){
 }
 ```
 
-** Reinstall / Update** 
+**Reinstall / Update** 
 Sometimes it just doesn't actually reinstall, so throwing away a package and installing it works better..
 
 ```bash
@@ -91,7 +91,7 @@ npm:update() {
 
 ### GIT shortcuts
 
-** Simplified commit with prefixes**
+**Simplified commit with prefixes**
 
 ```bash
 commit(){
@@ -150,7 +150,7 @@ commit:branch "newbranch"
 ```
 
 
-**Commit, Add and Pull **
+**Commit, Add and Pull**
 
 ```bash
 commit:add:pull(){
@@ -163,7 +163,7 @@ example:
 commit:add:pull "I fixed this really hard!" 
 ```
 
-**Commit, Add, Pull and Push **
+**Commit, Add, Pull and Push**
 
 ```bash
 commit:add:pull:push(){
@@ -192,7 +192,7 @@ git:remote git:github.com/silvandiepen/newremote.git
 
 ### Helpers 
 
-** Trash it! not remove **
+**Trash it! not remove**
 
 ```bash
 trash () {
@@ -205,7 +205,7 @@ example:
 trash myfile.jpg 
 ```
 
-** Create a Data URL**
+**Create a Data URL**
 
 Create a dataurl from an SVG so you can implement it in your stylesheet directly.
 
@@ -243,7 +243,7 @@ example:
 server 
 ```
 
-** Or one with php**
+**Or one with php**
 
 ```bash
 function phpserver() {
@@ -277,7 +277,7 @@ unidecode &
 
 ### Get a character’s Unicode code point
 
-```
+```bash
 function codepoint() {
 	perl -e "use utf8; print sprintf('U+%04X', ord(\"$@\"))"
 	# print a newline unless we’re piping the output to another program
@@ -297,7 +297,7 @@ codepoint a
 
 And last but not least, just a set of aliases. Shortcuts for common commands and some for some software.
 
-```
+```bash
 alias npm:upgrade="ncu -u"
 alias ..="cd .."
 alias dev="npm run dev"
