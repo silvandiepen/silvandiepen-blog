@@ -1,7 +1,7 @@
 # iOS and css clip-paths don't really go along
 
 Lately i've been working more and more with clipping path animations, unfortunately I still have to write ugly fixes to get them working in another "modern" browser called "Edge" so the experience isn't all that. But yeah, thats what you choose when using that browser.
-A litte animation like this, just shows the element when it gets a class <code>is-active</code>.
+A litte animation like this, just shows the element when it gets a class `is-active`.
 
 ```css
 .element {
@@ -62,8 +62,8 @@ I came to the following fix, it takes some code. But It gives the best result.
 Yeah, this works! But some questions answered:
 
 
-- **Animation length**; The animation is just as long as the transition. This makes sure your browser keeps rerendering while the transition happens. When you make this shorter, the transition will just stop there (Could be handy for something, but not in this case).</li>
-- **Not infinite**; It's not infinite anymore, that means it stops when the animation is done and won't have any influence on the scrolling.</li>
-- **2 animations?** Yes, because it's animation on the same element, so the browser doesnt see it as a new animation when you just add or a class. So you have to make two animations, for the with and without active state.</li>
+- **Animation length**; The animation is just as long as the transition. This makes sure your browser keeps rerendering while the transition happens. When you make this shorter, the transition will just stop there (Could be handy for something, but not in this case).
+- **Not infinite**; It's not infinite anymore, that means it stops when the animation is done and won't have any influence on the scrolling.
+- **2 animations?** Yes, because it's animation on the same element, so the browser doesnt see it as a new animation when you just add or a class. So you have to make two animations, for the with and without active state.
 
 Hope this helps somebody!
