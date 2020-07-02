@@ -37,9 +37,9 @@ repos(){
 ```
 
 
-- Obviously... change `~/repos` into your own local</li>
-- Go to your local repos folder with the command `repos`
-- Go to a local repo with the command `repos NameOfProject`
+- Obviously... change `~/repos` into your own local repositories folder.
+- Go to your local repos folder with the command `repos`.
+- Go to a local repo with the command `repos NameOfProject`.
 - This script searches for the folder in the first level and second level. Third level projects won't be found.
 - This script automatically also searches for folder with a underscore `_` in front of the name.  (for ex. `repos projects` will also navigate to `_projects`
 
