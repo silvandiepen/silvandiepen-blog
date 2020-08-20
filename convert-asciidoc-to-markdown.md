@@ -1,3 +1,7 @@
+---
+date: 2020-08-20
+---
+
 # Converting Asciidoc to Markdown
 
 Asciidoc is a nice file format but many websites or script really want to have markdown, which is way more compatible. I was working on a website which had a large amount of posts ready. But the new system is using just Nuxt with Nuxt Content. Nuxt Content also, does not support Asciidocs so we decided to just convert all Asciidoc files to Markdown. I've found multiple scripts to do so, but all would be a lot work to manually convert every file. Thats why I wrote a little script to just convert them all in once.
