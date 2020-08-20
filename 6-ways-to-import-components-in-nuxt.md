@@ -1,3 +1,7 @@
+---
+date: 2019-06-25
+---
+
 # 6 ways to import components in a Vue/Nuxt project
 
 After confusions, debates about whats best, trial and error, I've created a simple overview of how to import your components in Vue (Nuxt). Some ways are better then others, but it also completely depends on the purpose and where to use it.

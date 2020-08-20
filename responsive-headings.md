@@ -1,3 +1,7 @@
+---
+date: 2019-07-02
+---
+
 # Responsive headings
 
 Responsive text in web development is quite a thing right now and there are many ways to approach this with good and perfect results. We have been doing this for about 1,5 year now and I will share the way we do this. I’m not saying that any other way is bad or that this way is better, but this works pretty well for us.

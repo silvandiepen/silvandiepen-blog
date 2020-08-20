@@ -1,3 +1,7 @@
+---
+date: 2019-06-25
+---
+
 # A few CSS animation tips
 
 CSS Animation is a lot of fun and CSS has a big set of tools you can use to do so. Unfortunately some tools are better than others and some or better to avoid at all. So I made a list with a few tips to keep in mind while doing CSS animations.

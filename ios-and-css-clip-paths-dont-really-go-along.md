@@ -1,3 +1,7 @@
+---
+date: 2019-05-22
+---
+
 # iOS and css clip-paths don't really go along
 
 Lately i've been working more and more with clipping path animations, unfortunately I still have to write ugly fixes to get them working in another "modern" browser called "Edge" so the experience isn't all that. But yeah, thats what you choose when using that browser.

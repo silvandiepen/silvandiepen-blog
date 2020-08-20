@@ -1,4 +1,5 @@
 ---
+date: 2020-04-20
 tags: styling, css, less, sass
 ---
 
@@ -25,8 +26,7 @@ But then along came Sass, I first didn’t like it at all, that had mainly to do
 ```sass
 .class
    border: 1px solid red
-   width: 100%
-```
+   width: 100%```
 
 Scss was made for people like me, who weren’t a fan of the proposed simple syntax of Sass. And Scss was truely css with syntactic sugar. Valid css is also valid Scss! I more and more loved the language and started to create bigger and crazier things.
 

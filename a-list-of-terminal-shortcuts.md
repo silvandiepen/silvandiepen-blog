@@ -1,3 +1,7 @@
+---
+date: 2020-07-02
+---
+
 # A list of terminal shortcuts
 
 To make my life a lot easier, I have created a whole set of shortcuts which I regularly using while developing. Earlier I wrote about my 'go to repos' script [Easy find your repos...](https://blog.silvandiepen.nl/easy-find-and-navigate-to-a-repo-folder). But there are

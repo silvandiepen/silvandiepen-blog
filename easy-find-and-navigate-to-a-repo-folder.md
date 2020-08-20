@@ -1,3 +1,7 @@
+---
+date: 2020-07-02
+---
+
 # Easy find and navigate to a repository folder
 
 Switching projects, finding folders. Every time I'm typing my ass of to open the folder, so I made a faster solutions which automatically finds a folder in my defined repos folder.
