@@ -1,3 +1,7 @@
+---
+date: 2020-09-21
+---
+
 # Setting up a new Mac.
 
 Well, this is mainly an article for myself. After having to install, reinstall, etc new laptops for myself. I always tend to forget to do something. Here is a little list of things to do before start working. 
