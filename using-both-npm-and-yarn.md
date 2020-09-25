@@ -1,3 +1,7 @@
+---
+date: 2020-09-25
+---
+
 # Using both npm and Yarn
 
 Personally, I like to use npm, I don't really see a good reason why I would use Yarn. It could be faster, but I don't really feel it. So in all my personal projects I just use npm, but at my work, we use yarn. 
