@@ -1,5 +1,6 @@
 ---
 home: true
+hide: true
 ---
 
 # Hi! 
