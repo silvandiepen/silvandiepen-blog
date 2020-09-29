@@ -10,29 +10,32 @@ Add this to your bash_profile and use a simple command to go to your repo folder
 I started with a little shortcut just to go to my repos folder. Which is in my root, it's not that long, but it makes it easier.
 
 ```bash
-repos(){
-    if [ -z "$1" ]
+
+export REPOS_DIR=~/Repositories
+
+function repos(){
+     if [ -z $@ ]
         then
-        cd $REPOS
+        cd $REPOS_DIR
     else
         # check if the folder exists
-        if [ -d $REPOS/$1 ]
+        if [ -d $REPOS_DIR/$@ ]
             then
-            cd $REPOS/$1
+            cd $REPOS_DIR/$@
         else
             #Check if the folder Does exist with an underscore
-            if [ -d $REPOS/_$1 ]
+            if [ -d $REPOS_DIR/_$@ ]
                 then
-                cd $REPOS/_$1
+                cd $REPOS_DIR/_$@
             else
-                if [[ -n $(find $REPOS -type d -maxdepth 2 -name $1) ]]
+                if [[ -n $(find $REPOS_DIR -type d -maxdepth 2 -name $@) ]]
                     then
-                    for i in $(find $REPOS -type d -maxdepth 2 -name $1);
+                    for i in $(find $REPOS_DIR -type d -maxdepth 2 -name $@);
                         do
-                        cd "$i"
+                        "$@"
                     done
                 else
-                    echo $1 "folder doesn't exist"
+                    echo $@ "folder doesn't exist"
                 fi
             fi
         fi
@@ -41,7 +44,7 @@ repos(){
 ```
 
 
-- Obviously... change `~/repos` into your own local repositories folder.
+- Obviously... change `~/Repositories` into your own local repositories folder.
 - Go to your local repos folder with the command `repos`.
 - Go to a local repo with the command `repos NameOfProject`.
 - This script searches for the folder in the first level and second level. Third level projects won't be found.
