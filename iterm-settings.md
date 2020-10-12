@@ -1,5 +1,5 @@
 ---
-date: 20201012
+date: 2020-10-12
 ---
 
 # iTerm Settings
