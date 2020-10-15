@@ -47,10 +47,16 @@ There are way more options which you can use to customize this. AS few of those;
 
 ## Set the tabname in iTerm
 
-I'm using iTerm day in day and I have the tendency to just keep opening tabs. Sometimes I have no idea what the tab does and I just keep click on all tabs to find the right one. Now I made myself just name the tabs when I open them. That can be done if you add this little function to your `~/.zshrc` or `~/.bashrc` and just type in `tabname [thenameyouwant]` in your tab. iTerm will change it's name :)
+I'm using iTerm day in day and I have the tendency to just keep opening tabs. Sometimes I have no idea what the tab does and I just keep click on all tabs to find the right one. Now I made myself just name the tabs when I open them. That can be done if you add this little function to your `~/.zshrc` or `~/.bashrc` and just type in `tabname [thenameyouwant]` in your tab. iTerm will change it's name :). Just using 'tabname' as a command, will set the current foldername as your iTerm tab.
 
 ```
-function tabname {
-    echo -ne "\033]0;"$*"\007"
+tabname(){
+    if [ -z $@ ]
+        then
+        dir=${PWD##*/}
+        echo -n "\033]0;${dir}\007"
+    else
+        echo -ne "\033]0;"$*"\007"
+    fi
 }
 ```
