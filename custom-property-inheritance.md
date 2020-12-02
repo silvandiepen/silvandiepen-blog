@@ -38,3 +38,13 @@ body {
 .element {
 	font-family: var(--my-font-family, sans-serif);
 }
+```
+
+When you are using non-webfonts, make sure you will always fallback to a webfont too. Otherwise, if the font does not exists, it also won't fallback to the body, but to 'serif'.
+
+```css
+.element {
+	font-family: var(--my-font-family, 'MyCustomFont, helvetica, sans-serif');
+}
+```
+
